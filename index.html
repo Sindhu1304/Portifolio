@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Website-Easy Tutorials</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/8e58de80c2.js" crossorigin="anonymous"></script>"
+
+
+</head>
+
+<body>
+  <div id="header">
+  <div class="container">
+    <nav>
+      <img src="WhatsApp Image 2023-06-30 at 1.27.54 AM.jpeg" class="logo">
+      <ul>
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-text">
+      <p>UI/<span>UX</span> Designer</p>
+      <h1>Hi, I'm Sindhu From <span>Telangana</span></h1>
+    </div>
+  </div>
+  </div>
+  <!--------------------about------------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="WhatsApp Image 2023-06-30 at 12.21.24 AM.jpeg">
+        </div 
+         class="about-col-2">
+          <h1 class="sub-title">About<span>Me</span></h1>
+          <p><strong> Sindhu Pamula pursing btech 3rd year in Information Technology in Indian Institute of Information Technology,Allahabad airing from Telagana state.</strong></p>
+           <div class="tab-titles">
+             <p class="tab-links active-link" onclick="opentab"(skills)>Skills</p>
+             <p class="tab-links" onclick="opentab('experience')">Experience</p>
+
+             <p class="tab-links" onclick="opentab('education')">Education</p>
+
+          </div>
+          <div class="tab-contents active-tab" id="Skills">
+            <ul>
+              <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+              <li><span>Web Development</span><br>Web app Development</li>
+              <li><span>App Development</span><br>Building Android?iOS apps</li>
+            </ul>
+          </div>
+           <div class="tab-contents" id="experience">
+          </ul>
+             <li>span>2021-Current</span><br>UI/UX Design Training at IIIT-A 
+            Institute</li>
+             <li><span>2019-2021</span><br>UI/UX Design Training at IIIT-A 
+             Institute</li>
+             <li><span>2017-2019</span><br>UI/UX Design Executive at Coin 
+             Digital Ltd.</li>
+             <li><span>2016-2017</span><br>Internship at ekart ecommerce.</li>
+           </ul>
+           </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2016</span><br>UI/UX Design Training at IIIT-A 
+              Institute</li>
+              <li><span>2016</span><br>MBA from MIT Banglore.</li>
+              <li><span>2014</span><br>BBA from ISM Banglore.</li>
+            </ul>
+          </div>
+         </div>
+      </div>
+    </div>
+   <!-------------------------services---------------->
+    <div id="servcies">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-List">
+        <div>
+           <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>Iam Sindhu Pamula pursing btech 3rd year in Information Technology in Indian Institute of Information
+            Technology,Allahabad airing from Telagana state.</p>
+          <a href="#">learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>UI/UX Design</h2>
+          <p>Iam Sindhu Pamula pursing btech 3rd year in Information Technology in Indian Institute of Information
+            Technology,Allahabad airing from Telagana state.</p>
+          <a href="#">learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>App Design</h2>
+          <p>Iam Sindhu Pamula pursing btech 3rd year in Information Technology in Indian Institute of Information Technology,Allahabad airing from
+            Telagana state.</p>
+          <a href="#">learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-----------------portfolio-------------------->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUbFBANWFTO3L5mM9wk4bxOCO6gAT0E-Ck6vUGr5i2iw&s" />
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>The app connects you to the talented people around the world
+              Download it from playstore.le around the world Down</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+          </div>
+           <div class="work">
+            <img
+              src="data:image/jpeg;base64,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">
+             <div class="layer">
+              <h3>Music App</h3>
+              <p>The app connects you to the talented people around the world
+                Download it from playstore.le around the world Down</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+             </div>
+             </div>
+            <div class="work">
+            <img src="https://encrypted-tbn0.gstatic.com/images? 
+q=tbn:ANd9GcQXbWwBg_GdWDFry9wl7pqaUAG73kzgSGRQsO06pE9jQqS1E1q35l- 
+ oVg8gmSdLGlhqVV0&usqp=CAU">
+              <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>The app connects you to the talented people around the world
+                Download it from playstore.le around the world Down</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              </div>  
+          </div>
+      </div>
+       <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+  <!----------------contact---------------->
+  <div id="contact">
+      <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-solid fa-paper-plane"></i>contact@sindhu.com</p>
+              <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+              <div class="social-icons">
+                <a href="https://facebook.com/"><i class=" fa-brands fa-facebook"></i></a>
+                <a href=""><i class =" fa-brands fa-twitter-square"></i></a>
+                <a href=""><i class="fa-brands fa-instagram" ></i></a>
+                <a href=""><i class=" fa-brands fa-linkedin"></i></a>
+              </div>
+              <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            
+            <div class="contact-right">
+              <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+   <div class="copyright">
+    <p>Copyright @Sindhu. Made with <i class="fa-sharp fa-solid fa-heart"></i> by Easy Tutorials</p>
+  </div>
+</div>
+
+
+
+
+
+<script>
+
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname) {
+    for (tablink of tablinks) {
+      tablink.classList.remove("active-link");
+    }
+    for (tabcontent of tabcontents) {
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname), classList.add("active-tab")
+}
+  
+</script>
+
+<script>
+
+var sidemeu = document.getElementById("sidemenu");
+
+function openmenu(){
+sidemeu.style.right = "0";
+
+}
+function openmenu(){
+sidemeu.style.right = "-200px";
+}
+</script>   
+
+
+<script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+          for (tablink of tablinks) {
+            tablink.classList.remove("active-link")
+          }
+          for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab")
+          }
+           event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname), classList.add("active-tab")
+}
+
+</script>
